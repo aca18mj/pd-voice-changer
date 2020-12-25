@@ -1,0 +1,29 @@
+#N canvas -1562 111 807 310 10;
+#X obj 145 83 LFO~;
+#X obj 144 257 wsprobe~;
+#X floatatom 251 257 5 0 0 0 - - -;
+#X floatatom 358 259 5 0 0 0 - - -;
+#X obj 358 18 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 145 18 25;
+#X msg 251 19 0.7;
+#X text 431 68 Depth slider controls the amplitude (0 - 1) Two radio
+buttons are for switching between sine and square waves. Reset button
+resets the Speed and Depth values to default (or to values from creation
+arguments if provided);
+#X text 432 15 Generates a sine/square wave between 0-50Hz. Speed slider
+controls the frequency of the signal.;
+#X text 434 159 Can be used with two creation arguments to set initial
+speed and depth e.g. [LFO~ 10 0.7];
+#X text 311 197 Depth ^;
+#X text 206 196 Speed ^;
+#X text 71 198 LFO Signal ^;
+#X text 309 63 Reset V;
+#X text 205 62 Depth V;
+#X text 95 64 Speed V;
+#X connect 0 0 1 0;
+#X connect 0 1 2 0;
+#X connect 0 2 3 0;
+#X connect 4 0 0 2;
+#X connect 5 0 0 0;
+#X connect 6 0 0 1;

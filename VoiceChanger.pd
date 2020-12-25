@@ -1,0 +1,7 @@
+#N canvas -7 0 1918 988 10;
+#X obj 238 765 output~;
+#X obj 237 65 VoiceChangerBG;
+#X obj 433 777 wsprobe~;
+#X connect 1 0 0 0;
+#X connect 1 0 0 1;
+#X connect 1 0 2 0;

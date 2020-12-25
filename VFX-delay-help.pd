@@ -1,0 +1,19 @@
+#N canvas 142 63 870 479 10;
+#X obj 140 106 VFX-delay;
+#X text 59 87 Audio signal V;
+#X text 159 87 LFO speed V;
+#X text 241 87 LFO depth V;
+#X text 317 87 Delay (ms) V;
+#X text 400 87 Mixer (1-0) V;
+#X text 517 85 Reset V;
+#X text 35 18 Time delay effect such as Echo \, Comb Filtering and
+Flanger;
+#X text 389 264 <-- Initial delay;
+#X text 404 186 <-- LFO controlling the delay (set speed=0 for static
+delay);
+#X text 402 324 <-- Mix original signal with processed;
+#X text 573 136 <-- Turn effect on or off;
+#X text 22 367 Final audio output ^;
+#X text 35 44 (Echo or Comb Filtering can be achieved by setting LFO
+speed to 0);
+#X text 660 20 author: Michal Jarmocik;

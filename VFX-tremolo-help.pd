@@ -1,0 +1,10 @@
+#N canvas 229 37 743 300 10;
+#X obj 127 89 VFX-tremolo;
+#X text 46 67 Audio signal V;
+#X text 502 66 Reset V;
+#X text 558 122 <-- Turn effect or on or off;
+#X text 378 173 <-- LFO controls;
+#X text 136 10 Creates the tremolo effect. Modulates the amplitude
+of the speech with LFO;
+#X text 573 10 author: Michal Jarmocik;
+#X text 10 230 Final audio output ^;
