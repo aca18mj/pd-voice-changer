@@ -1,0 +1,14 @@
+#N canvas 0 50 925 397 10;
+#X obj 205 110 VFX-reverberation;
+#X text 124 90 Audio signal V;
+#X text 239 89 Delay (ms) V;
+#X text 326 88 Feedback(0-1) V;
+#X text 473 87 Mixer V;
+#X text 578 85 Reset V;
+#X text 644 143 <-- Turn effect on or off;
+#X text 448 151 <- Control delay;
+#X text 449 191 <- Control feedback;
+#X text 451 247 <-- Mix original signal with processed signal;
+#X text 87 319 Final audio output ^;
+#X text 539 21 author: Michal Jarmocik;
+#X text 76 24 Creates reverberation effect;

@@ -1,0 +1,8 @@
+#N canvas 0 50 536 300 10;
+#X obj 96 95 amp~;
+#X text 16 78 Audio signal v;
+#X text 192 75 Reset v;
+#X text 9 178 Output signal ^;
+#X text 12 15 Amplifies the signal. (multiplies by number 0-10);
+#X text 242 148 <-- Control the amplitude (from 0 to 10);
+#X text 244 123 <-- Reset;
